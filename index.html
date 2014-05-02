@@ -44,6 +44,21 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+</script>
 </head>
 <body class="html front not-logged-in no-sidebars role-anonymous-user" style="">
   
@@ -109,7 +124,7 @@
 	<h3 class="big-stuff internet">Stop Paying for Live Cams</h3>
 
 
-	<a href="http://streamate.com/?jntp=np" target="_blank">
+	<a href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');"  >
 		<div class="box-wrapper learn">
 			<div class="box-inner">
 				<h3 class="verb">we are</h3>
@@ -135,7 +150,7 @@
 </div>
 
 <div class="wrapper" id="check-hero">
-	<a href="http://streamate.com/?jntp=np" target="_blank">
+	<a href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
 		<div class="box-wrapper babe">
 			<div class="box-inner">
 				<h3 class="verb">With you we are</h3>
@@ -156,7 +171,7 @@
 
   <section id="middle">
     <div class="row clearfix">
-      <a href="http://streamate.com/?jntp=np" target="_blank"><div class="panel-pane pane-custom pane-1 clearfix">
+      <a href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" ><div class="panel-pane pane-custom pane-1 clearfix">
   
         <h2 class="pane-title"><span class="what">Create</span> Your <span class="hell">Free</span> Account </h2>
     
@@ -171,7 +186,7 @@
 
   <section id="middle">
     <div class="row clearfix">
-    <h2 class="pane-title">1. Simply click the link <a href="http://streamate.com/?jntp=np" target="_blank">Here</a></h2>
+    <h2 class="pane-title">1. Simply click the link <a href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >Here</a></h2>
     <h2 class="pane-title">2. Now enter a valid email - this is important because you will need to validate your account.</h2>
     <h2 class="pane-title">3. Now for the fun part! Simply check your email and verify your account. And let the party begin.</h2>
     </div>
@@ -195,7 +210,7 @@
     <div class="row clearfix">
       <div class="panel-pane pane-views-panes pane-lessons-course-pane-main clearfix">
   
-        <a href="http://streamate.com/?jntp=np" target="_blank"><h2 class="pane-title">Sign up <span class="italic-bold">Free To Chat With </span> <span class="knewave">Hot</span> <span class="big-bold">Models</span></h2></a>
+        <a href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" ><h2 class="pane-title">Sign up <span class="italic-bold">Free To Chat With </span> <span class="knewave">Hot</span> <span class="big-bold">Models</span></h2></a>
     
   
   <div class="pane-content">
@@ -205,8 +220,8 @@
   
   
         <div class="views-row views-row-1 clearfix">
-      <a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
-  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
+      <a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
+  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
 
   <img typeof="foaf:Image" src="./codebabes.com/chenelle2.jpg" width="485" height="430" alt="">
       <div class="right-brick">
@@ -219,8 +234,8 @@
   </div>
   </div>
   <div class="views-row views-row-2 clearfix">
-      <a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
-  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
+      <a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
+  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
 
   <img typeof="foaf:Image" src="./codebabes.com/veronica.jpg" width="485" height="430" alt="">
       <div class="right-brick">
@@ -233,8 +248,8 @@
   </div>
   </div>
   <div class="views-row views-row-3 clearfix">
-      <a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
-  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
+      <a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
+  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
 
   <img typeof="foaf:Image" src="./codebabes.com/melissa_0.jpg" width="485" height="430" alt="">
       <div class="right-brick">
@@ -247,8 +262,8 @@
   </div>
   </div>
   <div class="views-row views-row-4 clearfix">
-      <a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
-  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com/?jntp=np" target="_blank">
+      <a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
+  </a><div class="brick coming-soon"><a class="brick current" href="http://streamate.com" onclick="trackOutboundLink('http://streamate.com');" >
 
   <img typeof="foaf:Image" src="./codebabes.com/des2.jpg" width="485" height="430" alt="">
       <div class="right-brick">
